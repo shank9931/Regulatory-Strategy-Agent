@@ -1,0 +1,90 @@
+[
+    {
+      "id": "ICH_E6_R3",
+      "name": "ICH E6(R3) – Good Clinical Practice",
+      "region": "Global",
+      "product_types": ["drug", "biologic"],
+      "lifecycle_stage": ["clinical"],
+      "summary": "Principles for ethical and scientifically sound clinical trials in humans, covering responsibilities of sponsors, investigators and oversight bodies.",
+      "trigger_keywords": ["clinical trial", "human subjects", "GCP", "investigator", "site", "protocol"],
+      "applies_if": "There is prospective research involving human participants to generate clinical data.",
+      "example_use": "Phase 2 trial for an oncology biologic conducted in multiple countries."
+    },
+    {
+      "id": "ICH_Q9_R1",
+      "name": "ICH Q9(R1) – Quality Risk Management",
+      "region": "Global",
+      "product_types": ["drug", "biologic", "device"],
+      "lifecycle_stage": ["quality", "QMS"],
+      "summary": "Approach for identifying, assessing and controlling risks to product quality across the lifecycle.",
+      "trigger_keywords": ["risk assessment", "quality risk", "QRM", "control strategy", "manufacturing change"],
+      "applies_if": "The question involves quality, manufacturing, or control strategy decisions that affect product quality.",
+      "example_use": "Assessing impact of a manufacturing site change on product quality."
+    },
+    {
+      "id": "ICH_M4",
+      "name": "ICH M4 – Common Technical Document",
+      "region": "Global",
+      "product_types": ["drug", "biologic"],
+      "lifecycle_stage": ["submission"],
+      "summary": "Defines format and structure of marketing authorization applications, including modules for quality, nonclinical and clinical data.",
+      "trigger_keywords": ["CTD", "module 2", "module 3", "dossier structure", "NDA", "MAA"],
+      "applies_if": "The topic concerns how to organize or present data in a marketing application.",
+      "example_use": "Preparing CTD Modules 2–5 for an EU and US submission."
+    },
+    {
+      "id": "EU_MDR_2017_745",
+      "name": "EU MDR 2017/745 – Medical Devices Regulation",
+      "region": "EU",
+      "product_types": ["device", "SaMD"],
+      "lifecycle_stage": ["classification", "clinical", "post-market", "QMS"],
+      "summary": "Regulation defining classification rules, safety and performance requirements and oversight for medical devices and certain software in the EU.",
+      "trigger_keywords": ["CE marking", "conformity assessment", "Annex IX", "risk class", "EU device"],
+      "applies_if": "The product is a medical device or software with a medical purpose in the EU.",
+      "example_use": "Classifying a cardiac monitoring app as an EU medical device and defining conformity route."
+    },
+    {
+      "id": "MEDDEV_2_1_6",
+      "name": "MEDDEV 2.1/6 – Borderline Products",
+      "region": "EU",
+      "product_types": ["drug", "device", "cosmetic", "other"],
+      "lifecycle_stage": ["classification"],
+      "summary": "Guidance for distinguishing between medicinal products, medical devices, cosmetics and other borderline products in the EU.",
+      "trigger_keywords": ["borderline", "cosmetic vs device", "classification", "primary mode of action", "borderline product"],
+      "applies_if": "Product purpose or claims could place it in more than one regulatory category.",
+      "example_use": "Determining if a skin product is a cosmetic or therapeutic device."
+    },
+    {
+      "id": "FDA_SaMD_PG",
+      "name": "FDA SaMD Guidance – Software as a Medical Device",
+      "region": "US",
+      "product_types": ["SaMD"],
+      "lifecycle_stage": ["classification", "clinical"],
+      "summary": "Describes how FDA views stand-alone software functions with a medical purpose and expectations for clinical evaluation based on risk.",
+      "trigger_keywords": ["SaMD", "software as a medical device", "clinical evaluation", "US device software", "decision support"],
+      "applies_if": "Standalone software performs medical analysis, diagnosis, or treatment-related functions for US market.",
+      "example_use": "AI algorithm interpreting ECG data in a US cardiology app."
+    },
+    {
+      "id": "GVP_MODULE_V",
+      "name": "GVP Module V – Risk Management Systems",
+      "region": "EU",
+      "product_types": ["drug", "biologic"],
+      "lifecycle_stage": ["post-market", "pharmacovigilance"],
+      "summary": "Guidance on risk management plans, safety specifications and pharmacovigilance activities in the EU.",
+      "trigger_keywords": ["RMP", "risk management plan", "safety concern", "PV plan", "post-authorisation"],
+      "applies_if": "Topic involves post-authorisation safety, risk minimisation or pharmacovigilance planning for EU.",
+      "example_use": "Updating an RMP after new safety signal emerges."
+    },
+    {
+      "id": "FDA_LABELING_DRUG",
+      "name": "FDA Prescription Drug Labeling Requirements",
+      "region": "US",
+      "product_types": ["drug"],
+      "lifecycle_stage": ["labeling"],
+      "summary": "Describes content and format requirements for prescription drug labeling in the US, including indications, warnings and usage instructions.",
+      "trigger_keywords": ["USPI", "labeling", "prescribing information", "boxed warning", "indications"],
+      "applies_if": "The question concerns US prescription drug labeling content or format.",
+      "example_use": "Drafting Indications and Usage and Warnings sections for a new oncology drug."
+    }
+  ]

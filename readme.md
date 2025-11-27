@@ -33,7 +33,7 @@ The pipeline consists of four specialized agents working in series:
 
 2. Retriever Agent (The tool user):
     * Role: Data fetcher
-    * Action: Strictly madated to use the *search_guidelines* tool. It cannot answer from its own training data; it must fetch external context.
+    * Action: Strictly mandated to use the *search_guidelines* tool. It cannot answer from its own training data; it must fetch external context.
 
 3. Analyzer Agent:
     * Role: Probability scorer
@@ -85,3 +85,4 @@ Applicability Probability: 0.9
 Reasoning: Quality Risk Management (QRM) is a foundational principle for medical devices, including software. While not explicitly named by the planner, it is critical for addressing uncertainties in "Software Development & AI/ML Specifics" (V&V, continuous learning) and "Data Management, Security & Privacy" (cybersecurity risks), ensuring product quality and patient safety throughout the lifecycle. Its global applicability to devices makes it highly relevant.
 
 *Built for the Kaggle Agents Intensive Capstone 2025.*
+

@@ -7,19 +7,19 @@ Framework: Google Agent Development Kit (ADK)
 
 ## The Pitch
 ### Problem
-Bringing a new medical device to market requires navigating a labyrinth of complex, region-specific regulations. Regulatory professionals spend hunderds of hours searching for guidelines, assessing applicability, and double-checking their work. Missed regulations can lead to costly delays or rejections.
+Bringing a new medical device to market requires navigating a labyrinth of complex, region-specific regulations. Regulatory professionals spend hundreds of hours searching for guidelines, assessing applicability, and double-checking their work. Missed regulations can lead to costly delays or rejections.
 
 ### Solution
-The Regulatory Strategy Agents is a multi agent AI pipeline designed to automate the initial phase of regulatory scopig. Instead of a generic chat, it employs a strict, 4 step "assembly line" to:
+The Regulatory Strategy Agents is a multi agent AI pipeline designed to automate the initial phase of regulatory scoping. Instead of a generic chat, it employs a strict, 4 step "assembly line" to:
 
 1. Plan the research strategy based on the device description.
-2. Retrieve actual regulatory texts using specialized toosl.
+2. Retrieve actual regulatory texts using specialized tools.
 3. Analyze the applicability of each regulation with probabilistic scoring.
 4. Critique the findings to prevent AI hallucinations and overconfidence.
 
 ### Value
 * Consistency - Eliminates initial human error in initial scoping
-* Speed - Reduces days of reasearch into minutes of processing
+* Speed - Reduces days of research into minutes of processing
 * Traceability - Every step is logged and auditable via the ADK trace view
 
 ## Architecture
@@ -39,7 +39,7 @@ The pipeline consists of four specialized agents working in series:
     * Role: Probability scorer
     * Action: Reads the raw retrieved documents and assigns an "Applicability Score" (0.0 - 1.0) with justification.
 
-4. Critc Agent:
+4. Critic Agent:
     * Role: Quality Assurance
     * Action: Reviews the analysis for overconfidence (>0.8 score without strong evidence) and creates the final report.
 
@@ -85,4 +85,5 @@ Applicability Probability: 0.9
 Reasoning: Quality Risk Management (QRM) is a foundational principle for medical devices, including software. While not explicitly named by the planner, it is critical for addressing uncertainties in "Software Development & AI/ML Specifics" (V&V, continuous learning) and "Data Management, Security & Privacy" (cybersecurity risks), ensuring product quality and patient safety throughout the lifecycle. Its global applicability to devices makes it highly relevant.
 
 *Built for the Kaggle Agents Intensive Capstone 2025.*
+
 
